@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Tools - ToolNest</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+     <header>
+        <h1>ToolNest</h1>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="#">Tools</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+<div class="container">
+
+<h1>Text Tools</h1>
+
+<textarea id="textInput" placeholder="Write or paste your text here..."></textarea>
+
+
+<div class="buttons">
+
+<button onclick="countText()">Count Text</button>
+<button onclick="upperCase()">UPPERCASE</button>
+<button onclick="lowerCase()">lowercase</button>
+<button onclick="removeSpaces()">Remove Spaces</button>
+<button onclick="copyText()">Copy</button>
+<button onclick="clearText()">Clear</button>
+
+</div>
+
+
+<div class="stats">
+
+<p>Words: <span id="words">0</span></p>
+
+<p>Characters: <span id="characters">0</span></p>
+
+<p>Sentences: <span id="sentences">0</span></p>
+
+</div>
+
+
+</div>
+
+
+<script src="txt.js"></script>
+
+</body>
+</html>
